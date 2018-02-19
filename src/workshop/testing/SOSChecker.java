@@ -10,13 +10,12 @@ package workshop.testing;
  * For example:
  * SOSSAS
  * has one change O->A
+ *
  * SOSSOSSOSSOS
  * Has zero changes
- * <p>
- * This method takes in a String formatted as so:
- * It is all capital letters
- * Length of string%3 = 0
- * The string
+ *
+ * SOSBOBPOP
+ * has 4 changes
  */
 public class SOSChecker {
 	public static int countChangesGood(String message) {
